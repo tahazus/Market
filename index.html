@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="TahazuS — Gamer & Network Engineer. Connect via Telegram, Steam, Discord, and Twitter." />
+  
+    <title>TAWS</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="Images/taha.png" type="image/png" />
+  
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  
+    <!-- Fonts -->
+    <style>
+      * {
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Monument';
+        src: url('fonts/MonumentExtended-Regular.ttf');
+      }
+      @font-face {
+        font-family: 'Trueno';
+        src: url('fonts/TruenoExBdIt.ttf');
+      }
+      body {
+        font-family: 'Monument', sans-serif;
+      }
+      #particles-js {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        pointer-events: auto;
+        background: #08090C;
+      }
+    </style>
+  </head>
+  
+<body class="relative bg-black text-white">
+
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+
+  <!-- Foreground Content -->
+  <div class="relative z-10 flex flex-col min-h-screen pointer-events-none">
+
+    <!-- Header -->
+    <header class="text-center py-8 m-auto w-xl">
+      <h1 class="text-5xl md:text-6xl font-bold pointer-events-auto">TahazuS™</h1>
+    </header>
+
+    <!-- Main Links -->
+    <main class="flex justify-center items-center flex-1">
+        <div class="w-full max-w-xs md:max-w-xs lg:max-w-xs space-y-4 pointer-events-auto">
+        <a href="https://t.me/TahazuS" target="_blank" aria-label="Telegram profile" class="block py-3 rounded-full border border-white text-center text-lg hover:bg-white hover:text-black transition">Telegram</a>
+        <a href="https://t.me/TAWSvoucher" target="_blank" aria-label="Telegram profile" class="block py-3 rounded-full border border-white text-center text-lg hover:bg-white hover:text-black transition">TL Voucher</a>
+        <a href="https://t.me/TAWSgroup" target="_blank" aria-label="Telegram profile" class="block py-3 rounded-full border border-white text-center text-lg hover:bg-white hover:text-black transition">TL Group</a>
+        <a href="https://steamcommunity.com/id/TahazuS/" target="_blank" aria-label="Telegram profile" class="block py-3 rounded-full border border-white text-center text-lg hover:bg-white hover:text-black transition">Steam</a>
+        <a href="https://twitter.com/TahaHadian" target="_blank" aria-label="Telegram profile" class="block py-3 rounded-full border border-white text-center text-lg hover:bg-white hover:text-black transition">Twitter</a>
+        <a href="https://discord.gg/a7PrkNjXWk" target="_blank" aria-label="Telegram profile" class="block py-3 rounded-full border border-white text-center text-lg hover:bg-white hover:text-black transition">Discord</a>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 text-sm text-gray-300 m-auto w-xl">
+      <p class="pointer-events-auto">©2025 taws. All rights reserved.</p>
+    </footer>
+
+  </div>
+
+  <!-- Particle.js -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
