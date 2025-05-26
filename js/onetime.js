@@ -48,3 +48,20 @@ class SocialRight extends HTMLElement {
 }
 
 customElements.define('social-right', SocialRight);
+
+
+//Header Name
+class HeaderName extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+    <header class="text-center py-8 m-auto">
+        <div class="relative inline-block pointer-events-auto">
+          <span class="absolute -top-5 right-12 md:-top-5 md:right-16 bg-amber-300 text-stone-900 text-xs px-2 py-0.5 rounded-full">بتا</span>
+          <h1 class="text-4xl md:text-5xl font-bold">تـــاز</h1>
+        </div>
+    </header>
+    `;
+  }
+}
+
+customElements.define('header-name', HeaderName);
