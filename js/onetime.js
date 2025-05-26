@@ -49,8 +49,7 @@ class SocialRight extends HTMLElement {
 
 customElements.define('social-right', SocialRight);
 
-
-//Header Name
+//header Name
 class HeaderName extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
@@ -65,3 +64,20 @@ class HeaderName extends HTMLElement {
 }
 
 customElements.define('header-name', HeaderName);
+
+//alert
+class AlertHeader extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+    <div class="flex justify-center pointer-events-auto text-l mx-4">
+        <a href="https://t.me/TahazuS" class="flex items-center bg-amber-300 text-black hover:bg-amber-400 px-4 py-3 rounded-md border-2 border-white/50">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-2 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m0-4h.01M12 2a10 10 0 100 20 10 10 0 000-20z" />
+        </svg>
+        تمام خریدها از در تلگرام انجام می‌شود برای هر گونه سوال یا استعلام قیمت، به tahazus@ پیام دهید.</a>
+    </div>
+    `;
+  }
+}
+
+customElements.define('alert-header', AlertHeader);
