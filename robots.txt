@@ -9,4 +9,4 @@ Allow: /Images/
 User-agent: *
 Crawl-delay: 5
 
-Sitemap: https://www.tahazus.ir/sitemap_index.xml
+Sitemap: https://www.tahazus.ir/sitemap.xml
