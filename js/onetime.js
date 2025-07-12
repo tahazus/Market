@@ -4,7 +4,7 @@ class SocialFooter extends HTMLElement {
     this.innerHTML = `
     <footer class="py-6 w-xl">
         <div class="flex lg:hidden p-3 pointer-events-auto">
-          <a href="https://t.me/TahazuS" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-r-xl border-2 border-white/50 mx-1">
+          <a href="https://t.me/TAWSS" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-r-xl border-2 border-white/50 mx-1">
           <img src="/Images/telegram.png" alt="telegram icon" loading="lazy">
           </a>
           <a href="https://steamcommunity.com/id/TahazuS" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-sm border-2 border-white/50 mx-1">
@@ -30,7 +30,7 @@ class SocialRight extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <div class="hidden lg:flex fixed top-1/3 right-4 z-10 flex-col space-y-1 pointer-events-auto">
-        <a href="https://t.me/TahazuS" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-t-xl border-2 border-white/50">
+        <a href="https://t.me/TAWSS" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-t-xl border-2 border-white/50">
         <img src="/Images/telegram.png" alt="telegram icon" loading="lazy">
         </a>
         <a href="https://steamcommunity.com/id/TahazuS" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-sm border-2 border-white/50">
