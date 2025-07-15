@@ -66,7 +66,7 @@
 
          <!-- Description -->
          <p class="text-zinc-300 text-lg leading-relaxed">
-            استیم پوینت به پولی گفته میشود که کاربران در پلتفرم استیم، از طریق خرید بازی یا مشارکت در فعالیت‌های مختلف کسب می‌کنند. این پول می‌تواند برای خرید آواتار، استیکر، پوستر یا موارد دیگر در <strong>استیم پوینت شاپ</strong> استفاده شود. <br>
+            استیم پوینت به پولی گفته میشود که کاربران در پلتفرم استیم، از طریق خرید بازی یا مشارکت در فعالیت‌های مختلف کسب می‌کنند. این پول می‌تواند برای خرید آواتار، استیکر، پوستر یا موارد دیگر در <a class="text-amber-300" href="https://store.steampowered.com/points/shop/" target="_blank" rel="noopener noreferrer external">استیم پوینت شاپ</a> استفاده شود. <br>
             به ازای هر ۱ دلار هزینه شده، ۱۰۰ عدد <a class="text-amber-300" href="https://store.steampowered.com/points/howitworks#Title" target="_blank" rel="noopener noreferrer external">استیم پوینت</a> دریافت می‌کنید.
          </p>
 
@@ -113,6 +113,207 @@
    </div>
    </div>
 
+<section class="md:w-[50%] mx-auto py-12 px-4 sm:px-6 lg:px-8 pointer-events-auto">
+
+  <!-- بخش پرسش‌های متداول -->
+  <div>
+    <h1 class="text-3xl font-bold mb-6">پرسش‌های متداول</h1>
+    <div class="space-y-4">
+      <!-- آیتم FAQ -->
+      <div x-data="{ open: false }" class="border border-gray-200 rounded-lg overflow-hidden">
+        <button 
+          @click="open = !open" 
+          class="w-full flex justify-between items-center p-6 text-right"
+        >
+          <span class="text-lg font-medium text-zinc-300">استیم پوینت چیست و چه کاربردی دارد؟</span>
+          <svg 
+            :class="{ 'transform rotate-180': open }" 
+            class="w-5 h-5 text-zinc-300 transition-transform duration-200" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div x-show="open" x-collapse class="px-6 pb-6 text-zinc-400">
+          <p>استیم پوینت در واقع امتیازی است که با انجام فعالیت هایی در استیم بدست می آید
+            <br>- خرید بازی یا خرید های درون برنامه ای
+            <br>- مشارکت در کامیونتی استیم
+            <br>از کاربرد های استیم پوینت میشه به زیبا سازی پروفایل استیم (اواتار - بک گراند - مینی پروفایل و...) و لول آپ اکانت استیم اشاره کرد
+          </p>
+        </div>
+      </div>
+
+      <div x-data="{ open: false }" class="border border-gray-200 rounded-lg overflow-hidden">
+        <button 
+          @click="open = !open" 
+          class="w-full flex justify-between items-center p-6 text-right"
+        >
+          <span class="text-lg font-medium text-zinc-300">چطور موجودی استیم پوینت خودم رو ببینم؟</span>
+          <svg 
+            :class="{ 'transform rotate-180': open }" 
+            class="w-5 h-5 text-zinc-300 transition-transform duration-200" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div x-show="open" x-collapse class="px-6 pb-6 text-zinc-400">
+          <p>
+            شما میتونید با مراجعه به صفحه <a class="text-amber-300" href="https://store.steampowered.com/points/" target="_blank" rel="noopener noreferrer external">استیم پوینت شاپ</a> در استیم موجودی خود را در بالای صفحه مشاهده کنید
+          </p>
+        </div>
+      </div>
+
+      <div x-data="{ open: false }" class="border border-gray-200 rounded-lg overflow-hidden">
+        <button 
+          @click="open = !open" 
+          class="w-full flex justify-between items-center p-6 text-right"
+        >
+          <span class="text-lg font-medium text-zinc-300">چطور استیم پوینت ها را برای ما میفرستید و اینکه قانونی هست؟</span>
+          <svg 
+            :class="{ 'transform rotate-180': open }" 
+            class="w-5 h-5 text-zinc-300 transition-transform duration-200" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div x-show="open" x-collapse class="px-6 pb-6 text-zinc-400">
+          <p>
+             پوینت ها از طریق اوارد (Award) انتقال داده میشه که دقیقا روشی هست که استیم برای این کار اختصاص داده و کاملا قانونی هست
+            <br>ما در استیم یک راهنما نوشتیم که شما را کاملا با روش انتقال استیک پوینت اشنا کنیم - <a class="text-amber-300" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2910120985" target="_blank" rel="noopener noreferrer external">مشاهده راهنما</a>
+          </p>
+        </div>
+      </div>
+
+      <div x-data="{ open: false }" class="border border-gray-200 rounded-lg overflow-hidden">
+        <button 
+          @click="open = !open" 
+          class="w-full flex justify-between items-center p-6 text-right"
+        >
+          <span class="text-lg font-medium text-zinc-300">چه اطلاعاتی از اکانت لازم دارید؟</span>
+          <svg 
+            :class="{ 'transform rotate-180': open }" 
+            class="w-5 h-5 text-zinc-300 transition-transform duration-200" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div x-show="open" x-collapse class="px-6 pb-6 text-zinc-400">
+          <p>
+            شما میتوانید یکی از اطلاعات زیر را در اختار ما قرار دهید
+            <br> - لینک پروفایل
+            <br> - کد ادد فرند
+          </p>
+        </div>
+      </div>
+
+      <div x-data="{ open: false }" class="border border-gray-200 rounded-lg overflow-hidden">
+        <button 
+          @click="open = !open" 
+          class="w-full flex justify-between items-center p-6 text-right"
+        >
+          <span class="text-lg font-medium text-zinc-300"> نیازی به باز بودن ادفرند و مارکت اکانت هست؟</span>
+          <svg 
+            :class="{ 'transform rotate-180': open }" 
+            class="w-5 h-5 text-zinc-300 transition-transform duration-200" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div x-show="open" x-collapse class="px-6 pb-6 text-zinc-400">
+          <p>
+         خیر نیازی نیست
+        </p>
+        </div>
+      </div>
+
+      <div x-data="{ open: false }" class="border border-gray-200 rounded-lg overflow-hidden">
+        <button 
+          @click="open = !open" 
+          class="w-full flex justify-between items-center p-6 text-right"
+        >
+          <span class="text-lg font-medium text-zinc-300">حداقل میزان خرید پوینت استیم چقدر است؟</span>
+          <svg 
+            :class="{ 'transform rotate-180': open }" 
+            class="w-5 h-5 text-zinc-300 transition-transform duration-200" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div x-show="open" x-collapse class="px-6 pb-6 text-zinc-400">
+          <p>
+            فروش ما به صورت پک های 12 هزار تایی هست. در صورت خرید بیشتر از 3 پک شامل تخفیف میشوید
+        </p>
+        </div>
+      </div>
+
+      <div x-data="{ open: false }" class="border border-gray-200 rounded-lg overflow-hidden">
+        <button 
+          @click="open = !open" 
+          class="w-full flex justify-between items-center p-6 text-right"
+        >
+          <span class="text-lg font-medium text-zinc-300">چرا 14 روز بعد به دستم میرسد؟</span>
+          <svg 
+            :class="{ 'transform rotate-180': open }" 
+            class="w-5 h-5 text-zinc-300 transition-transform duration-200" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div x-show="open" x-collapse class="px-6 pb-6 text-zinc-400">
+          <p>
+            درسته هست که ما اوارد (Award) در چند ساعت برای شما میزنیم ولی طبق قانون استیم 14 روز حساب شما شارژ میشود و راه سریع تری وجود ندارد
+        </p>
+        </div>
+      </div>
+
+      <div x-data="{ open: false }" class="border border-gray-200 rounded-lg overflow-hidden">
+        <button 
+          @click="open = !open" 
+          class="w-full flex justify-between items-center p-6 text-right"
+        >
+          <span class="text-lg font-medium text-zinc-300">ایتم هایی که از پوینت شاپ میخرم قابلیت ترید رو داردند؟</span>
+          <svg 
+            :class="{ 'transform rotate-180': open }" 
+            class="w-5 h-5 text-zinc-300 transition-transform duration-200" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div x-show="open" x-collapse class="px-6 pb-6 text-zinc-400">
+          <p>
+            خیر! تمامی ایتم های خریداری شده در پوینت شاپ استیم قابلیت ترید و ریفاند رو ندارند
+            <br> سعی کنید موقع خرید دقیت کنید چون هیچ راه بازگشتی ندارد
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
    <!-- Footer -->
    <social-footer class="m-auto"></social-footer>
 
@@ -124,5 +325,7 @@
    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
    <script src="/js/app.js"></script>
    <script src="/js/onetime.js"></script>
+
+   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 </html>
