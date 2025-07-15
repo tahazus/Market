@@ -10,7 +10,7 @@ class SocialFooter extends HTMLElement {
           <a href="https://steamcommunity.com/id/TahazuS" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-sm border-2 border-white/50 mx-1">
           <img src="/Images/steam.png" alt="steam icon" loading="lazy">
           </a>
-          <a href="https://twitter.com/TahaHadian" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-sm border-2 border-white/50 mx-1">
+          <a href="https://x.com/TahaHadian" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-sm border-2 border-white/50 mx-1">
           <img src="/Images/twitter.png" alt="x.com icon" loading="lazy">
           </a>
           <a href="https://discord.gg/a7PrkNjXWk" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-l-xl border-2 border-white/50 mx-1">
@@ -36,7 +36,7 @@ class SocialRight extends HTMLElement {
         <a href="https://steamcommunity.com/id/TahazuS" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-sm border-2 border-white/50">
         <img src="/Images/steam.png" alt="steam icon" loading="lazy">
         </a>
-        <a href="https://twitter.com/TahaHadian" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-sm border-2 border-white/50">
+        <a href="https://x.com/TahaHadian" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-sm border-2 border-white/50">
         <img src="/Images/twitter.png" alt="x.com icon" loading="lazy">
         </a>
         <a href="https://discord.gg/a7PrkNjXWk" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-b-xl border-2 border-white/50">
