@@ -47,72 +47,39 @@
    <alert-header></alert-header>
 
    <!-- Main -->
-   <div class="text-white px-6 py-20 pointer-events-auto">
-   <div class="max-w-5xl mx-auto">
-
-      <!-- Layout -->
-      <div class="flex flex-col md:flex-row gap-10">
-
-         <!-- Image -->
-         <div class="flex-shrink-0 w-full md:w-1/2">
-         <img src="/Images/steampoint.webp" alt="استیم پوینت - Steam Points" class="w-full rounded-lg shadow-md object-cover" loading="lazy">
-         </div>
-
-         <!-- Details -->
-         <div class="flex flex-col justify-center w-full md:w-1/2 space-y-6">
-
-         <!-- Title -->
-         <h1 class="text-3xl font-bold Aradbold">استیم پوینت</h1>
-
-         <!-- Description -->
-         <p class="text-zinc-300 text-lg leading-relaxed">
-            استیم پوینت نوعی اعتبار در پلتفرم استیم است که کاربران از طریق خرید بازی یا شرکت در فعالیت‌های مختلف به دست می‌آورند.  
-            <br> این اعتبار برای خرید آیتم‌هایی مثل آواتار، استیکر، پوستر و سایر موارد در <a class="text-amber-300" href="https://store.steampowered.com/points/shop/" target="_blank" rel="noopener noreferrer external">استیم پوینت شاپ</a> قابل استفاده است.
-            <br>به ازای هر ۱ دلار هزینه شده، ۱۰۰ عدد <a class="text-amber-300" href="https://store.steampowered.com/points/howitworks#Title" target="_blank" rel="noopener noreferrer external">استیم پوینت</a> دریافت می‌کنید.
-         </p>
-
-         <!-- مشخصات محصول با آیکون -->
-         <ul class="rounded-lg p-4 text-sm text-zinc-300 space-y-4 border border-zinc-700">
-         <li class="flex items-center gap-2">
-            <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-               <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6l4 2"></path>
-               <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none" />
-            </svg>
-            <span><span class="text-amber-400 font-semibold">زمان تحویل</span> بین ۵ دقیقه تا ۱ ساعت</span>
-         </li>
-
-         <li class="flex items-center gap-2">
-            <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-               <path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a4 4 0 00-8 0v2m-4 0h16v10a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path>
-            </svg>
-            <span><span class="text-amber-400 font-semibold">طریقه پرداخت:</span> از طریق تلگرام (پشتیبانی مستقیم)</span>
-         </li>
-
-         <li class="flex items-center gap-2">
-            <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-               <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
-            </svg>
-            <span><span class="text-amber-400 font-semibold">اطلاعات مورد نیاز:</span> لینک پروفایل استیم شما </span>
-         </li>
-         </ul>
-         <!-- Price & CTA -->
-         <div class="w-full max-w-[700px] px-4">
-            <div class="flex flex-col md:flex-row justify-start gap-4 mt-4">
-            <button class="bg-amber-400 hover:bg-amber-500 text-zinc-900 font-bold py-2 px-4 rounded-lg text-sm md:text-base">
-                   هزار عدد: <span class="text-zinc-800">١٨,٠٠٠ تومان</span>
-            </button>  
-            </div>
-
-            <a href="https://t.me/TahazuS" 
-               class="block md:inline-block mt-4 bg-amber-800 hover:bg-amber-600 px-5 py-2 rounded-lg text-white font-medium transition-colors duration-200 text-center">
-               همین الان خرید کن
-            </a>
-         </div>
-
-         </div>
+<div class="m-auto py-5">
+<div class="bg-white/5 backdrop-blur-sm rounded-3xl shadow-2xl p-6 md:p-10 mx-3 my-8 max-w-3xl md:max-w-4xl border-2 border-zinc-800 pointer-events-auto">
+  <div class="flex flex-col md:flex-row items-center gap-10">
+    <!-- تصویر -->
+    <div class="w-full md:w-1/2">
+      <img src="/Images/steampoint.webp" alt="استیم پوینت" class="w-full rounded-xl object-cover shadow-lg border border-amber-200/40" loading="lazy" />
+    </div>
+    <!-- متن و جزئیات -->
+    <div class="flex flex-col gap-6 w-full md:w-1/2">
+      <h1 class="text-2xl md:text-3xl font-extrabold text-amber-400">استیم پوینت</h1>
+      <p class="text-zinc-200 leading-relaxed text-sm md:text-base">
+                    استیم پوینت نوعی اعتبار در پلتفرم استیم است که کاربران از طریق خرید بازی یا شرکت در فعالیت‌های مختلف به دست می‌آورند.  
+                  <br> این اعتبار برای خرید آیتم‌هایی مثل آواتار، استیکر، پوستر و سایر موارد
+                  در <a class="text-amber-300" href="https://store.steampowered.com/points/shop/" target="_blank" rel="noopener noreferrer external">استیم پوینت شاپ</a> قابل استفاده است.
+                  <br>به ازای هر ۱ دلار هزینه شده، ۱۰۰ عدد <a class="text-amber-300" href="https://store.steampowered.com/points/howitworks#Title" target="_blank" rel="noopener noreferrer external">استیم پوینت</a> دریافت می‌کنید.
+      </p>
+      <ul class="space-y-1 text-xs text-zinc-400">
+        <li>🟡 زمان تحویل: ۵ دقیقه تا ۱ ساعت</li>
+        <li>🟠 پرداخت: از طریق تلگرام (پشتیبانی مستقیم)</li>
+        <li>🔗 نیازمند: لینک پروفایل استیم شما</li>
+      </ul>
+      <div class="flex flex-col gap-3 mt-2">
+        <span class="font-bold bg-amber-200 text-amber-700 px-4 py-2 rounded-lg text-base text-center shadow">هزار عدد: ۱۸,۰۰۰ تومان</span>
+        <a href="https://t.me/TahazuS"
+           class="bg-amber-400 hover:bg-amber-500 transition-colors font-extrabold text-zinc-900 rounded-xl px-6 py-2 text-center shadow-md">
+          خرید سریع از تلگرام 🚀
+        </a>
       </div>
-   </div>
-   </div>
+    </div>
+  </div>
+</div>
+</div>
+
 
 <section class="md:w-[50%] mx-auto py-12 px-4 sm:px-6 lg:px-8 pointer-events-auto">
 
