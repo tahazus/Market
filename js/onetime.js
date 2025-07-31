@@ -3,7 +3,7 @@ class SocialFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <footer class="py-6 w-xl">
-        <div class="flex lg:hidden p-3 pointer-events-auto">
+        <div class="flex xl:hidden p-3 pointer-events-auto">
           <a href="https://t.me/TAWSS" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-r-xl border-2 border-white/50 mx-1">
           <img src="/Images/telegram.png" alt="telegram icon" loading="lazy">
           </a>
@@ -29,7 +29,7 @@ customElements.define('social-footer', SocialFooter);
 class SocialRight extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-    <div class="hidden lg:flex fixed top-1/3 right-4 z-10 flex-col space-y-1 pointer-events-auto">
+    <div class="hidden xl:flex fixed top-1/3 right-4 z-10 flex-col space-y-1 pointer-events-auto">
       <a href="https://t.me/TAWSS" class="bg-red-900 hover:bg-red-800 px-4 py-3 rounded-t-xl border-2 border-white/50">
         <img src="/Images/telegram.png" alt="آیکن تلگرام" loading="lazy">
       </a>
@@ -71,7 +71,7 @@ class AlertHeader extends HTMLElement {
     this.innerHTML = `
     <div class="flex justify-center mx-4 pointer-events-auto">
       <a href="https://t.me/TahazuS" class="flex items-center bg-amber-300 text-black hover:bg-amber-400 px-4 py-3 rounded-md border-2 border-white/50">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-10 md:size-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m0-4h.01M12 2a10 10 0 100 20 10 10 0 000-20z" />
         </svg>
         تمام خریدها از طریق تلگرام انجام می‌شود. برای سوال یا استعلام قیمت، به @TahazuS پیام دهید.
