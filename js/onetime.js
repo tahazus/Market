@@ -74,7 +74,7 @@ class AlertHeader extends HTMLElement {
         <svg xmlns="http://www.w3.org/2000/svg" class="size-10 md:size-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m0-4h.01M12 2a10 10 0 100 20 10 10 0 000-20z" />
         </svg>
-        تمام خریدها از طریق تلگرام انجام می‌شود. برای سوال یا استعلام قیمت، به @TahazuS پیام دهید.
+        تمام خریدها از طریق تلگرام انجام می‌شود. برای سوال یا استعلام قیمت، به TahazuS@ پیام دهید.
       </a>
     </div>
     `;
